@@ -1,0 +1,69 @@
+{
+  "name": "基础配置",
+  "version": "0.0.1",
+  "description": "项目相关配置信息",
+  "main": "info.json",
+  "author": "wangyongjie",
+  "blog": "www.xiaodongxier.com",
+  "github": "xiaodongxier (https://github.com/xiaodongxier)",
+  "keywords": [
+    "vue",
+    "theme",
+    "dream-theme"
+  ],
+  "tabs": [
+    {
+      "key": "todo",
+      "title": "待办事项",
+      "path": "todo",
+      "class": "dream-theme-card",
+      "childen": "TodoList",
+      "baseUrl":""
+    },
+    {
+      "key": "note",
+      "title": "我的文章",
+      "path": "note",
+      "class": "dream-theme-card",
+      "childen": "NoteList",
+      "baseUrl":""
+    },
+    {
+      "key": "wish",
+      "title": "愿望清单",
+      "path": "wish",
+      "class": "dream-theme-card",
+      "childen": "WishList",
+      "baseUrl":""
+    },
+    {
+      "key": "plan",
+      "title": "系统计划",
+      "path": "plan",
+      "class": "dream-theme-card",
+      "childen": "ThenePlan",
+      "baseUrl":""
+    },
+    {
+      "key": "log",
+      "title": "系统历史",
+      "path": "todo",
+      "class": "dream-theme-card",
+      "childen": "ThemeLog",
+      "baseUrl":""
+    },
+    {
+      "key": "about",
+      "title": "关于",
+      "path": "about",
+      "class": "dream-theme-card",
+      "childen": "About",
+      "baseUrl":""
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaodongxier/xiaodongxier.github.io.git"
+  },
+  "license": "暂时必须为MIT"
+}
