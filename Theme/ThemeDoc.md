@@ -9,8 +9,12 @@
 
 ## md文档渲染
 
-使用 `vue-markdown` 渲染
 
+- 渲染markdown
+  - 使用 `vue-markdown` 渲染
+  - github-markdown-css
+- 代码高亮，行号：https://juejin.cn/post/6844904004452007943
+  - highlightjs-line-numbers.js
 
 
 ## markdown 语法参考
