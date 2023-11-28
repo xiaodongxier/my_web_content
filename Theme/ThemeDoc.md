@@ -14,6 +14,7 @@
   - 使用 `vue-markdown` 渲染
   - github-markdown-css
 - 代码高亮，行号：https://juejin.cn/post/6844904004452007943
+  - [highlight.js](https://github.com/highlightjs/highlight.js)
   - [highlightjs-line-numbers.js](https://www.npmjs.com/package/highlightjs-line-numbers.js)
 
 > 下面代码未生效原因，是因为DOM结构未渲染
