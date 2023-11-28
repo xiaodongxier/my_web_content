@@ -46,14 +46,14 @@
 
 >< {%["dot", "heart", false,"red", ""]%}
 
-- 突发灵感, 项目创建, 画了草图原型
-- 确定基本实现思路：单页面应用vue2 + antd; 纯前端项目,没有数据库; 数据全部存储在GitHub仓库, 通过开放 API 进行数据的获取, 成本低不需要进行服务器等相关的部署
+突发灵感, 项目创建, 画了草图原型
+确定基本实现思路：单页面应用vue2 + antd; 纯前端项目,没有数据库; 数据全部存储在GitHub仓库, 通过开放 API 进行数据的获取, 成本低不需要进行服务器等相关的部署
 
 #### 2023-11-26 周日
 
 >< {%["", "", false, "blue", "font-size"]%}
 
-- 完成页面的整体框架, 完成待办事项模块 [效果图](https://gitcdn.xiaodongxier.com/obsidian/202311272349210.webp)
+完成页面的整体框架, 完成待办事项模块 [效果图](https://gitcdn.xiaodongxier.com/obsidian/202311272349210.webp)
 
 
 
@@ -61,10 +61,7 @@
 
 >< {%["dot", "alert", false, "", "font-size"]%}
 
-- 主题记录模块开发,完成历史时间轴模块 [效果图](https://gitcdn.xiaodongxier.com/obsidian/202311272352787.webp)
-  - 111
-  - 222
-  - 33
+主题记录模块开发,完成历史时间轴模块 [效果图](https://gitcdn.xiaodongxier.com/obsidian/202311272352787.webp)
 
 
 
@@ -72,9 +69,14 @@
 
 >< {%["dot", "bug", false, "blie", "font-size"]%}
 
-- 文章笔记模块优化
-  - 文章接入数据仓库
-  - 准备一个完整markdown语法文档，调整渲染样式
+文章笔记模块优化
+文章接入数据仓库
+完整markdown文档渲染样式,代码高亮主题
+
+
+
+#### 2023-11-29
+
 
 
 
