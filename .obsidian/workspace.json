@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NoteList/说时随地的00002.md",
+                "file": "Theme/ThemePlan.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NoteList/说时随地的00002.md",
+                "file": "Theme/ThemePlan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NoteList/说时随地的00002.md",
+                "file": "Theme/ThemePlan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NoteList/说时随地的00002.md"
+                "file": "Theme/ThemePlan.md"
               }
             }
           }
@@ -151,6 +151,9 @@
   },
   "active": "24b1b9e86e2cb6fd",
   "lastOpenFiles": [
+    "Theme/ThemeLog.md",
+    "Theme/ThemeDoc.md",
+    "NoteList/说时随地的00002.md",
     "NoteList/--d--e-d-e-d-e-d-e-de.md",
     "WishList/index.md",
     "README.md",
@@ -184,9 +187,6 @@
     "附件/CodeDemo/vue2-demo/node_modules/table/node_modules/strip-ansi/readme.md",
     "附件/CodeDemo/vue2-demo/node_modules/table/node_modules/string-width/readme.md",
     "附件/CodeDemo/vue2-demo/node_modules/table/node_modules/emoji-regex/README.md",
-    "附件/CodeDemo/vue2-demo/node_modules/table/node_modules/ansi-regex/readme.md",
-    "附件/CodeDemo/vue2-demo/node_modules/table/README.md",
-    "附件/CodeDemo/vue2-demo/node_modules/strip-json-comments/readme.md",
     "附件/CodeDemo/vue2-demo/src/assets/logo.png",
     "附件/CodeDemo/vue2-demo/node_modules/stream-http/test/server/static/browserify.png",
     "附件/CodeDemo/vue2-demo/node_modules/serve-index/public/icons/page_white_picture.png",
