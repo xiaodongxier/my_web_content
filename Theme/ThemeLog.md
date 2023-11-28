@@ -61,7 +61,7 @@
 
 >< {%["dot", "alert", false, "", "font-size"]%}
 
-主题记录模块开发,完成历史时间轴模块 [效果图](https://gitcdn.xiaodongxier.com/obsidian/202311272352787.webp)
+- 主题记录模块开发,完成历史时间轴模块 [效果图](https://gitcdn.xiaodongxier.com/obsidian/202311272352787.webp)
 
 
 
