@@ -315,7 +315,6 @@ $(document).ready(function () {
   </div>
 </template>
 ```
-```
 
 `printf()` 函数
 
