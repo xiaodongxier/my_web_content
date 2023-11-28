@@ -14,8 +14,27 @@
   - 使用 `vue-markdown` 渲染
   - github-markdown-css
 - 代码高亮，行号：https://juejin.cn/post/6844904004452007943
-  - [highlight.js](https://github.com/highlightjs/highlight.js)
   - [highlightjs-line-numbers.js](https://www.npmjs.com/package/highlightjs-line-numbers.js)
+
+
+### 代码高亮 [highlight.js](https://github.com/highlightjs/highlight.js)
+
+使用 `highlight.js` 进行代码高亮, 所有高亮的样式可以在这里 [查看](https://highlightjs.org/demo)
+
+```js
+import "github-markdown-css/github-markdown.css";
+// import "github-markdown-css/github-markdown-dark.css";
+// import "github-markdown-css/github-markdown-light.css";
+
+import highlightPlugin from "@highlightjs/vue-plugin";
+import "highlight.js/styles/a11y-dark.css"; // 引入内置样式, 样式有很多可以在npm里面看
+Vue.use(highlightPlugin);
+ount("#app");
+
+```
+
+
+
 
 > 下面代码未生效原因，是因为DOM结构未渲染
 
