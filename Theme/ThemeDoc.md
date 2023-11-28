@@ -16,6 +16,23 @@
 - 代码高亮，行号：https://juejin.cn/post/6844904004452007943
   - highlightjs-line-numbers.js
 
+> 下面代码未生效原因，是因为DOM结构未渲染
+
+```html
+<script>
+import hljs from 'highlight.js';
+export default {
+  name: 'ThemePlan',
+  mounted() {
+      console.log(this.$refs.mdContent.$el.querySelectorAll("*"))
+      this.$el.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightBlock(block);
+      });
+  }
+}
+</script>
+```
+
 
 ## markdown 语法参考
 
