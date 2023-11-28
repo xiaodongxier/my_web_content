@@ -30,6 +30,16 @@ GET /repos/{owner}/{repo}/contents/{path}?ref={branch}
 
 
 
+## 选项
+
+官方：
+https://raw.githubusercontent.com/xiaodongxier/my_web_content/dream_data/Theme/ThemePlan.md
+
+
+加速：
+https://cdn.jsdelivr.net/gh/xiaodongxier/my_web_content@dream_data/Theme/ThemePlan.md
+
+
 
 ## 接口文章
 
