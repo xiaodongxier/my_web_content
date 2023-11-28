@@ -4,39 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8e2b28b1e1e71352",
+        "id": "566e917871301f4d",
         "type": "tabs",
         "children": [
           {
-            "id": "79cf0ddcc1820b43",
+            "id": "24b1b9e86e2cb6fd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "9af847a0a79929ac",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "c1ab722f0280838d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "03ad2bb336157c04",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "WishList/index.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -106,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "WishList/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "WishList/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "WishList/index.md"
+              }
             }
           }
         ],
@@ -162,10 +146,11 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "audio-recorder:开始/结束录音": false
+      "audio-recorder:开始/结束录音": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "79cf0ddcc1820b43",
+  "active": "24b1b9e86e2cb6fd",
   "lastOpenFiles": [
     "README.md",
     "总结文章/github仓库文件列表渲染.md",
