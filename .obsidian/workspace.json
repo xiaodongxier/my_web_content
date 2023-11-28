@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WishList/index.md",
+                "file": "NoteList/说时随地的00002.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WishList/index.md",
+                "file": "NoteList/说时随地的00002.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WishList/index.md",
+                "file": "NoteList/说时随地的00002.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WishList/index.md"
+                "file": "NoteList/说时随地的00002.md"
               }
             }
           }
@@ -135,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 224.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,12 +146,13 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
-      "audio-recorder:开始/结束录音": false,
-      "copilot:Copilot Chat": false
+      "audio-recorder:开始/结束录音": false
     }
   },
   "active": "24b1b9e86e2cb6fd",
   "lastOpenFiles": [
+    "NoteList/--d--e-d-e-d-e-d-e-de.md",
+    "WishList/index.md",
     "README.md",
     "总结文章/github仓库文件列表渲染.md",
     "一句话.md",
@@ -186,8 +187,6 @@
     "附件/CodeDemo/vue2-demo/node_modules/table/node_modules/ansi-regex/readme.md",
     "附件/CodeDemo/vue2-demo/node_modules/table/README.md",
     "附件/CodeDemo/vue2-demo/node_modules/strip-json-comments/readme.md",
-    "附件/CodeDemo/vue2-demo/node_modules/source-map-js/README.md",
-    "附件/CodeDemo/vue2-demo/node_modules/source-map-js/CHANGELOG.md",
     "附件/CodeDemo/vue2-demo/src/assets/logo.png",
     "附件/CodeDemo/vue2-demo/node_modules/stream-http/test/server/static/browserify.png",
     "附件/CodeDemo/vue2-demo/node_modules/serve-index/public/icons/page_white_picture.png",
