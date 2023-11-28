@@ -14,6 +14,7 @@
     - https://api.github.com/repos/{owner}/{repo}/contents/{path}?ref={branch}
       - 例如：https://api.github.com/repos/xiaodongxier/my_web_content/contents?ref=dream_data
       - 文件夹：https://api.github.com/repos/xiaodongxier/my_web_content/contents/NoteList?ref=dream_data
+      - 文档：https://raw.githubusercontent.com/xiaodongxier/my_web_content/dream_data/Theme/ThemePlan.md
   - 获取仓库其他分支信息
     - https://api.github.com/repos/xiaodongxier/my_web_content/branches/dream_data
 
