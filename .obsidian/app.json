@@ -1,0 +1,14 @@
+{
+  "showLineNumber": false,
+  "trashOption": "system",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "附件/image",
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

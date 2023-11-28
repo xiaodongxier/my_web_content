@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "244884193ac3ab5c",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e2b28b1e1e71352",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79cf0ddcc1820b43",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "9af847a0a79929ac",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "c1ab722f0280838d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "03ad2bb336157c04",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "527e3a27e9884bb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "44a1ab7cef3f3f45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75534752531b2709",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "661551407ea84d3d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Git",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b1fc773543ba61c4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "00f1a877db0e4af1",
+    "type": "split",
+    "children": [
+      {
+        "id": "faacb066d77ee0d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15c274c5838e0611",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbb0cd12aebef3e2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd8ea7fad2723a47",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "adc05e1f508a3037",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 365.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "audio-recorder:开始/结束录音": false
+    }
+  },
+  "active": "79cf0ddcc1820b43",
+  "lastOpenFiles": [
+    "README.md",
+    "总结文章/github仓库文件列表渲染.md",
+    "一句话.md",
+    "课程学习/吴悠讲编程/1小时学会JS.md",
+    "课程学习",
+    "课程学习/吴悠讲编程/1小时学会Vue.md",
+    "Todo.md",
+    "Recording 20231120130218.webm.md",
+    "附件/image/Recording 20231120125900.webm",
+    "附件/image/Recording 20231120130218.webm",
+    "附件/image/Recording 20231120125852.webm",
+    "附件/CodeDemo/vue2-demo/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/debug/src/common.js",
+    "附件/CodeDemo/vue2-demo/node_modules/import-fresh/index.d.ts",
+    "附件/CodeDemo/vue2-demo/node_modules/callsites/index.d.ts",
+    "附件/CodeDemo/vue2-demo/node_modules/write/package.json",
+    "附件/CodeDemo/vue2-demo/node_modules/write/node_modules",
+    "附件/CodeDemo/vue2-demo/node_modules/write/index.js",
+    "附件/CodeDemo/vue2-demo/node_modules/write/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/word-wrap/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/webpack/node_modules/eslint-scope/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/webpack/node_modules/eslint-scope/CHANGELOG.md",
+    "附件/CodeDemo/vue2-demo/node_modules/vue-template-compiler/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/vue-eslint-parser/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/vue/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/v8-compile-cache/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/string-width/node_modules/is-fullwidth-code-point/readme.md",
+    "附件/CodeDemo/vue2-demo/node_modules/type-check/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/table/node_modules/strip-ansi/readme.md",
+    "附件/CodeDemo/vue2-demo/node_modules/table/node_modules/string-width/readme.md",
+    "附件/CodeDemo/vue2-demo/node_modules/table/node_modules/emoji-regex/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/table/node_modules/ansi-regex/readme.md",
+    "附件/CodeDemo/vue2-demo/node_modules/table/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/strip-json-comments/readme.md",
+    "附件/CodeDemo/vue2-demo/node_modules/source-map-js/README.md",
+    "附件/CodeDemo/vue2-demo/node_modules/source-map-js/CHANGELOG.md",
+    "附件/CodeDemo/vue2-demo/src/assets/logo.png",
+    "附件/CodeDemo/vue2-demo/node_modules/stream-http/test/server/static/browserify.png",
+    "附件/CodeDemo/vue2-demo/node_modules/serve-index/public/icons/page_white_picture.png",
+    "附件/CodeDemo/vue2-demo/node_modules/serve-index/public/icons/page_white_php.png",
+    "附件/CodeDemo/vue2-demo/node_modules/serve-index/public/icons/page_white_paintbrush.png",
+    "附件/CodeDemo/vue2-demo/node_modules/serve-index/public/icons/page_white_paste.png",
+    "附件/CodeDemo/vue2-demo/node_modules/serve-index/public/icons/page_white_paint.png",
+    "附件/CodeDemo/vue2-demo/node_modules/serve-index/public/icons/page_white_medal.png",
+    "附件/CodeDemo/vue2-demo/node_modules/serve-index/public/icons/page_white_office.png",
+    "附件/CodeDemo/vue2-demo/node_modules/serve-index/public/icons/page_white_magnify.png",
+    "00.canvas",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "未命名 2.canvas"
+  ]
+}
