@@ -271,6 +271,128 @@ GOOGLE.COM
 
 ## 代码
 
+```
+`printf()` 函数
+
+
+```html
+<div id="loader"></div>
+<div class="loader-section section-left"></div>
+<div class="loader-section section-right"></div>
+```
+
+```css
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+}
+```
+
+```js
+$(document).ready(function () {
+    alert('RUNOOB');
+});
+```
+
+```vue
+<template>
+  <div class="plan-content">
+    <a-spin tip="数据加载中..." :spinning="loading">
+      <div class="plan-list">
+        1
+      </div>
+    </a-spin>
+  </div>
+</template>
+```
+```
+
+`printf()` 函数
+
+
+```html
+<div id="loader"></div>
+<div class="loader-section section-left"></div>
+<div class="loader-section section-right"></div>
+```
+
+```css
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+}
+```
+
+```js
+$(document).ready(function () {
+    alert('RUNOOB');
+});
+```
+
+```vue
+<template>
+  <div class="plan-content">
+    <a-spin tip="数据加载中..." :spinning="loading">
+      <div class="plan-list">
+        1
+      </div>
+    </a-spin>
+  </div>
+</template>
+```
+
+---
+
+## 链接
+
+```
+这是一个链接 [菜鸟教程](https://www.runoob.com)
+
+
+这个链接用 1 作为网址变量 [Google][1]
+这个链接用 runoob 作为网址变量 [Runoob][runoob]
+然后在文档的结尾为变量赋值（网址）
+
+  [1]: http://www.google.com/
+  [runoob]: http://www.runoob.com/
+```
+
+这是一个链接 [菜鸟教程](https://www.runoob.com)
+
+
+这个链接用 1 作为网址变量 [Google][1]
+这个链接用 runoob 作为网址变量 [Runoob][runoob]
+然后在文档的结尾为变量赋值（网址）
+
+  [1]: http://www.google.com/
+  [runoob]: http://www.runoob.com/
+
+
+---
+
+
+
+
 
 
 
