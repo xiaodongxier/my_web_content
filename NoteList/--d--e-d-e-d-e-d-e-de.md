@@ -1,6 +1,71 @@
 # 我的文章标题
 
-这篇文章是关于 `Vue` 
+这篇文章是关于 `Vue` 相关的解释及方法说明
+
+## 语法
+
+- `v-html` 插入代码
+- `v-text` 插入文本
+- `v-text`
+- `v-text`
+- `v-text`
+
+
+
+## 优势
+
+1. 加载快
+2. 响应快
+3. 易于学习
+4. 易于使用
+5. 易于维护
+6. 易于扩展
+7. 易于调试
+8. 易于测试
+9. 易于部署
+10. 易于扩展
+11. 易于维护
+12. 易于扩展
+13. 易于调试
+14. 易于测试
+
+
+## 劣势
+
+1. 加载慢
+2. 响应慢
+3. 难以学习
+4. 难以使用
+5. 难以维护
+6. 难以扩展
+7. 难以调试
+8. 难以测试
+9. 难以部署
+10. 难以扩展
+11. 难以维护
+12. 难以扩展
+13. 难以调试
+14. 难以测试
+
+## 语法
+
+```js
+<a-form-model-item label="任务类型：">
+  <a-select v-model="initParams.taskType" style="width: 180px" allow-clear placeholder="请选择任务类型" @change="clearTaskState">
+    <a-select-option v-for="item in searchSelect.type" :key="item.key" :value="item.key">
+      {{ item.value }}
+    </a-select-option>
+  </a-select>
+</a-form-model-item>
+```
+
+## 总结
+
+总的来说，我觉得这是一个非常好的专栏，我相信我写的每一篇文章都是对这个世界的一次见证。
+
+我相信，我写的每一篇文章都是对这个世界的一次见证。
+
+
 
 这里记录过去一周，我看到的值得分享的东西。
 
