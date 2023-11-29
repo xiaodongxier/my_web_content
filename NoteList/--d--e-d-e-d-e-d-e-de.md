@@ -10,6 +10,23 @@
 - `v-text`
 - `v-text`
 
+## 插入图片
+
+![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042801.jpg)
+（题图：青岛火车站）
+
+
+![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042801.jpg)
+
+（题图：青岛火车站）
+
+
+![（题图：青岛火车站）](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042801.jpg)
+
+
+## 插入链接
+
+这是一个[链接](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042801.jpg)
 
 
 ## 优势
@@ -67,11 +84,12 @@
 
 
 
+
+---
+
 这里记录过去一周，我看到的值得分享的东西。
 
-![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042801.jpg)
 
-（题图：青岛火车站）
 
 上周发了[第一期](http://www.ruanyifeng.com/blog/2018/04/weekly-issue-1.html)以后，有朋友问为什么写这个专栏？
 
