@@ -1,5 +1,7 @@
 # 我的文章标题
 
+这篇文章是关于 `Vue` 
+
 这里记录过去一周，我看到的值得分享的东西。
 
 ![](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018042801.jpg)
