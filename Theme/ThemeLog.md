@@ -81,7 +81,7 @@
 
 >< {%["", "", false, "blue", "font-size"]%}
 
-解决 `md` 文件渲染问题, 前期一直选择 `markdown-vue` 感觉没有问题, 但是现在还要考虑目录的生成, `markdown-it` / `marked` 要在选择一个
+解决 `md` 文件渲染问题, 前期一直选择 `markdown-vue` 感觉没有问题, 但是现在还要考虑目录的生成貌似它不支持, 所以 `markdown-it` / `marked` 要在选择一个
 
 解决代码主题色渲染问题, 使用的 `highlight.js`  库解决
 
