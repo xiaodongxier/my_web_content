@@ -1,6 +1,6 @@
 {
-  "noteSync.delayTime": 6000,
+  "noteSync.delayTime": 1000,
   "noteSync.enableNoteSync": true,
-  "noteSync.finishStatusMessage": "vscode定期push",
+  "noteSync.finishStatusMessage": "发布成功.....",
   "noteSync.pushCommitMessage": "SaveUp+1"
 }
