@@ -1,5 +1,5 @@
 {
   "noteSync.delayTime": 1000,
   "noteSync.enableNoteSync": true,
-  "noteSync.finishStatusMessage": ""
+  "noteSync.finishStatusMessage": "vscode定期push"
 }
