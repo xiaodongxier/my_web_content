@@ -44,7 +44,7 @@
 
 #### 2023-11-25 周六
 
->< {%["dot", "heart", false,"red", ""]%}
+>< {%["dot", "heart", false, "red", ""]%}
 
 突发灵感, 项目创建, 画了草图原型
 确定基本实现思路：单页面应用vue2 + antd; 纯前端项目,没有数据库; 数据全部存储在GitHub仓库, 通过开放 API 进行数据的获取, 成本低不需要进行服务器等相关的部署
@@ -92,7 +92,7 @@
 
 #### 2023-11-29
 
->< {%["", "", false, "blue", "font-size"]%}
+>< {%["", "font-size", false, "blue", "font-size"]%}
 
 选择了一个符合个人的感觉的字体[霞鹜文楷](https://github.com/chawyehsu/lxgw-wenkai-webfont), 并加入到网站当中, 在线 [预览](https://chawyehsu.github.io/lxgw-wenkai-webfont/) 可以查看字体的显示效果
 
