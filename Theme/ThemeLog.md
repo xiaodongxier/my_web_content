@@ -92,9 +92,9 @@
 
 #### 2023-11-29
 
->< {%["", "font-size", false, "blue", "font-size"]%}
+>< {%["dot", "font-size", false, "blue", "font-size"]%}
 
-选择了一个符合个人的感觉的字体[霞鹜文楷](https://github.com/chawyehsu/lxgw-wenkai-webfont), 并加入到网站当中, 在线 [预览](https://chawyehsu.github.io/lxgw-wenkai-webfont/) 可以查看字体的显示效果
+选择了一个符合个人的感觉的字体[霞鹜文楷](https://github.com/chawyehsu/lxgw-wenkai-webfont), 并加入到网站当中, 字体作者提供了在线 [预览](https://chawyehsu.github.io/lxgw-wenkai-webfont/) 字体效果的页面
 
 
 
