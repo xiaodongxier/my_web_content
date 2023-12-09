@@ -3,9 +3,11 @@
 
 ## 开发思路
 
-> 纯前端技术开发 `vue2` + `antd@1.7.8`, 文件以 `markdown` 格式存储, 所有数据文件存储在 `GitHub` 仓库, 通过 `GitHub` 开发 `API` 进行数据的获取, 然后通过前端渲染到页面
+> 纯前端技术开发 `vue2` + `antd@1.7.8`, 文件以 `markdown` 格式存储, 所有数据文件存储在 `GitHub` 仓库, 通过 `GitHub` 开发 `API` 进行数据的获取, 然后通过前端渲染到页面上。
 
-> vue2 + antd + vue-markdown
+- Vue2
+- Ant Design of Vue
+- vue-markdown
 
 
 
