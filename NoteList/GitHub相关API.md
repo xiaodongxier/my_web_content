@@ -11,4 +11,8 @@ API地址：https://api.github.com/users/
 请求方式：get
 请求参数：path路径： 用户名
 返回参数：一个用户对象
+例子：https://api.github.com/users/xiaodongxier
 ```
+
+**返回结果：**
+
