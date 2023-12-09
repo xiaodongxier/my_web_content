@@ -19,5 +19,5 @@ https://raw.gitmirror.com/xiaodongxier/my_web_content/dream_data/TodoList/index.
 **例如：**
 
 ```
-
+https://cdn.jsdelivr.net/gh/xiaodongxier/my_web_content@dream_data/TodoList/index.md
 ```
