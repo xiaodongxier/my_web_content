@@ -6,3 +6,8 @@
 ## 获取用户信息
 
 
+```
+API地址：https://api.github.com/users/
+请求方式：get
+
+```
