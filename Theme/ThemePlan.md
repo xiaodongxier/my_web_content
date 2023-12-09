@@ -169,7 +169,6 @@ GOOGLE.COM
 
 创建脚注格式类似这样 [^RUNOOB]。
 
-[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
 
 
 
@@ -612,3 +611,5 @@ $$
 ## 参考
 
 https://github.com/solstice23/argon-theme
+
+[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
