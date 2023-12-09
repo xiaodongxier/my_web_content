@@ -9,6 +9,16 @@
 - Ant Design of Vue
 - vue-markdown
 
+
+## 发布流程
+
+配合 `vscode` 的插件 `Note Sync` 进行保存自动发布
+
+
+
+
+
+
 ## 源码结构
 
 ```shell
@@ -92,6 +102,3 @@ export default {
 - [菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
 
 
-## 发布流程
-
-配合 `vscode` 的插件 `Note Sync` 进行保存自动发布
