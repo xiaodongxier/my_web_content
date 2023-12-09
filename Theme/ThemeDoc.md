@@ -1,5 +1,40 @@
 # 主题文档
 
+
+## 开发技术
+
+> vue2 + antd + vue-markdown
+
+
+
+
+```shell
+src                        
+├─ assets                  
+│  └─ logo.png             
+├─ components              
+│  ├─ About                
+│  │  └─ About.vue         
+│  ├─ NoteList             
+│  │  └─ NoteList.vue      
+│  ├─ Theme                
+│  │  ├─ modules           
+│  │  │  ├─ ThemeDoc.vue   
+│  │  │  ├─ ThemeLog.vue   
+│  │  │  └─ ThemePlan.vue  
+│  │  └─ Theme.vue         
+│  ├─ TodoList             
+│  │  └─ TodoList.vue      
+│  ├─ WishList             
+│  │  └─ WishList.vue      
+│  ├─ HomePage.vue       
+├─ mixins                  
+│  └─ commonMixin.js       
+├─ App.vue                 
+└─ main.js                 
+```
+
+
 - 主题文档是指在 `src/theme` 目录下，以 `*.md` 结尾的文件。
 - 主题文档的作用是为用户提供主题相关的文档，帮助用户更好的使用主题。
 - 主题文档的格式是 Markdown 格式，使用 `mdx` 格式。
