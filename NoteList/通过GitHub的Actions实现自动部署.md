@@ -44,14 +44,14 @@ jobs:
 
       - name: Deploy to Blog Repository
         run: |
-          git clone https://${{ secrets.GH_TOKEN_BLOG }}@github.com/xiaodongxier/iblog.git iblog
+          git clone https://${{ secrets.GH_TOKEN_BLOG }}@github.com/{{username}}/iblog.git iblog
           cd iblog
-          git config --global user.email "xiaodongxier@gmail.com"
-          git config --global user.name "xiaodongxier"
+          git config --global user.email "username@gmail.com"
+          git config --global user.name "username"
           rm -rf ./*
           cp -r ../dist/* .
           git add .
-          git commit -m "小东西儿iblog网站开发新版本部署"
+          git commit -m "update"
           git push
         env:
           REPO_NAME_BLOG: ${{ secrets.REPO_NAME_BLOG }}
