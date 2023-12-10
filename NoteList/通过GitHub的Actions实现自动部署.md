@@ -13,6 +13,7 @@
 
 ## 2. iblog_dev 开发仓库相关配置
 
+![](https://gitcdn.xiaodongxier.com/obsidian/202312101614449.webp)
 
 在 iblog_dev 仓库的设置中，转到 "Settings" -> "Secrets"，添加两个密钥：
 
