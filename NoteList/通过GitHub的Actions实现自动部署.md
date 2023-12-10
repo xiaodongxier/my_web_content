@@ -13,6 +13,8 @@
 
 ## 2. iblog_dev 开发仓库相关配置
 
+1. 
+
 在你的 iblog_dev 开发仓库中创建一个名为 `.github/workflows/build-and-deploy.yml` 的文件，并添加以下内容：
 
 ```shell
