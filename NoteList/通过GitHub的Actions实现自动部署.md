@@ -11,15 +11,7 @@
 - iblog 部署仓库
 
 
-## 2. iblog_dev 开发仓库相关配置
-
-![](https://gitcdn.xiaodongxier.com/obsidian/202312101614449.webp)
-
-在 iblog_dev 仓库的设置中，转到 "Settings" -> "Secrets"，添加两个密钥：
-
-- GH_TOKEN_BLOG: 用于访问 blog 仓库的 Personal Access Token。确保该 Token 具有读写仓库的权限。
-- REPO_NAME_BLOG: iblog 仓库的名称。
-
+## 2. 生成相关参数
 
 
 ### 生成个人访问令牌：
@@ -48,23 +40,15 @@
 
 
 
+## 3. iblog_dev 开发仓库相关配置
 
+![](https://gitcdn.xiaodongxier.com/obsidian/202312101614449.webp)
 
+在 iblog_dev 仓库的设置中，转到 "Settings" -> "Secrets"，添加两个密钥：
 
+- GH_TOKEN_BLOG: 用于访问 blog 仓库的 Personal Access Token。确保该 Token 具有读写仓库的权限。
+- REPO_NAME_BLOG: iblog 仓库的名称。
 
-
-
-
-
-
-
-
-
-
-
-
-
-1. 申请 `GH_TOKEN_BLOG` 用于
 
 在你的 iblog_dev 开发仓库中创建一个名为 `.github/workflows/build-and-deploy.yml` 的文件，并添加以下内容：
 
