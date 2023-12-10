@@ -7,5 +7,5 @@
 
 ## 1. 准备
 
-- iblog 开发仓库
-- blog 部署仓库
+- iblog_dev 开发仓库
+- iblog 部署仓库
