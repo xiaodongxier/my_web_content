@@ -7,7 +7,7 @@
 
 ## 1. 准备
 
-- iblog_dev 开发仓库
+- iblog_dev 开发仓库(隐私仓库)
 - iblog 部署仓库
 
 
