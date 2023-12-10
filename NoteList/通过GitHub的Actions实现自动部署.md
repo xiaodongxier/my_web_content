@@ -44,7 +44,7 @@ jobs:
 
       - name: Deploy to Blog Repository
         run: |
-          git clone https://${{ secrets.GH_TOKEN_BLOG }}@github.com/{{username}}/iblog.git iblog
+          git clone https://${{ secrets.GH_TOKEN_BLOG }}@github.com/{{username}}/{{depot}}.git iblog
           cd iblog
           git config --global user.email "username@gmail.com"
           git config --global user.name "username"
