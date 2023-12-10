@@ -93,3 +93,6 @@ jobs:
         env:
           REPO_NAME_BLOG: ${{ secrets.REPO_NAME_BLOG }}
 ```
+
+
+实现了开发仓库iblog_dev有代码push的时候，直接自动打包部署到 iblog 仓库中。
