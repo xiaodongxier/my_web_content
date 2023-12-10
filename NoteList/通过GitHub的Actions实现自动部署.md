@@ -14,8 +14,7 @@
 ## 2. iblog_dev 开发仓库相关配置
 
 
-
-在 blog_content 仓库的设置中，转到 "Settings" -> "Secrets"，添加两个密钥：
+在 iblog_dev 仓库的设置中，转到 "Settings" -> "Secrets"，添加两个密钥：
 
 - GH_TOKEN_BLOG: 用于访问 blog 仓库的 Personal Access Token。确保该 Token 具有读写仓库的权限。
 - REPO_NAME_BLOG: blog 仓库的名称。
