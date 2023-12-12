@@ -119,3 +119,4 @@ html2canvas插件有很多参数，以下是其中一些常用的参数及其默
 ## 参考
 
 - [vue-pdf实现pdf预览、分页、下载、打印](https://cloud.tencent.com/developer/article/1864231)
+- [jsPDF addHTML 将低质量图像导出为 PDF](https://stackoverflow.com/questions/29166163/jspdf-addhtml-exporting-low-quality-image-to-pdf)
