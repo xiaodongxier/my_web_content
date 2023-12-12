@@ -112,7 +112,64 @@ html2canvas插件有很多参数，以下是其中一些常用的参数及其默
 这些只是html2canvas插件的一部分参数，还有其他参数可供使用。您可以根据需要查看html2canvas文档以获取更详细的参数列表。
 ```
 
+### 版本1
 
+> 调整了居中，但是内容感觉有点小，希望宽带在大一点，高度再高一点
+
+```js
+// 导出页面为PDF格式
+import html2Canvas from "html2canvas";
+import JsPDF from "jspdf";
+export default {
+  install(Vue, options) {
+    Vue.prototype.getPdf = function (name, id) {
+      const title = name || "index";
+      html2Canvas(document.querySelector(`#${id}`), {
+        allowTaint: true,
+        // backgroundColor: "red",
+        taintTest: false,
+        useCORS: true,
+        dpi: window.devicePixelRatio * 4, // 将分辨率提高到特定的DPI 提高四倍
+        scale: 4, // 按比例增加分辨率
+        logging: true // 可以长屏分页导出
+      }).then(function (canvas) {
+        const contentWidth = canvas.width;
+        const contentHeight = canvas.height;
+        const pageHeight = contentWidth / 592.28 * 841.89;
+        let leftHeight = contentHeight;
+        let position = 0;
+        const imgWidth = 595.28;
+        const imgHeight = 592.28 / contentWidth * contentHeight;
+        const pageData = canvas.toDataURL("image/jpeg", 1.0);
+        const PDF = new JsPDF("l", "pt", "a4");
+
+        // 获取页面宽度
+        const pageWidth = PDF.internal.pageSize.getWidth();
+        // 计算x坐标
+        const x = (pageWidth - imgWidth) / 2;
+        console.log("pageWidth", pageWidth);
+        console.log("contentWidth", contentWidth);
+        console.log("x", x);
+        if (leftHeight < pageHeight) {
+          PDF.addImage(pageData, "JPEG", x, 0, imgWidth, imgHeight);
+        // 否则，循环添加图片
+        } else {
+          while (leftHeight > 0) {
+            PDF.addImage(pageData, "JPEG", x, position, imgWidth, imgHeight);
+            leftHeight -= pageHeight;
+            position -= 841.89;
+            // 如果leftHeight大于0，则添加新页
+            if (leftHeight > 0) {
+              PDF.addPage();
+            }
+          }
+        }
+        PDF.save(title + ".pdf");
+      });
+    };
+  }
+};
+```
 
 
 
