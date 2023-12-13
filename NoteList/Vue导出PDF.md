@@ -181,6 +181,8 @@ export default {
 
 ### 网络原始版本
 
+**默认竖版打印**
+
 ```js
 function createPDFObject() {
   html2canvas(document.getElementById("main"), {
@@ -233,4 +235,91 @@ function createPDFObject() {
 
   }
  });
+```
+
+**调整后，可以横版打印，但是下边距貌似又问题**
+
+```js
+// 导出页面为PDF格式
+import html2Canvas from "html2canvas";
+import JsPDF from "jspdf";
+
+// 导出默认的插件
+export default {
+  // 安装插件
+  install(Vue, options) {
+    // 添加getPdf方法到Vue实例
+    Vue.prototype.getPdf = function (name, id) {
+      // 获取title
+      const title = name || "index";
+      // 将指定元素转换为图片
+      html2Canvas(document.querySelector(`#${id}`), {
+        allowTaint: true,
+        taintTest: false,
+        useCORS: true,
+        // 设置图片缩放比例
+        // 该参数
+        dpi: window.devicePixelRatio * 4,
+        // 设置图片缩放比例
+        // 大于7貌似就不行了
+        scale: 4,
+        // 是否开启日志
+        logging: true
+      }).then(function (canvas) {
+        // a4 - 宽841*592
+        // 获取图片宽度
+        const contentWidth = canvas.width;
+        // 获取图片高度
+        const contentHeight = canvas.height;
+        // 通过计算，可以得到每页的高度`pageHeight`
+        // const pageHeight = contentWidth / 592.28 * 841.89;
+        // 左右各50，共100
+        // 上下各30，共60
+        // const pageHeight = contentWidth / 742 * 532;
+        const pageHeight = contentWidth / 742 * 532;
+        // 变量`leftHeight`来表示剩余的高度
+        let leftHeight = contentHeight;
+        // 初始化position
+        // let position = 0;
+        let position = 30;
+        // 图片宽度
+        // const imgWidth = 595.28;
+        const imgWidth = 742;
+        // 图片高度
+        // const imgHeight = 592.28 / contentWidth * contentHeight;
+        const imgHeight = 742 / contentWidth * contentHeight;
+        // 获取图片数据
+        const pageData = canvas.toDataURL("image/jpeg", 1.0);
+        console.log("contentWidth", contentWidth);
+        console.log("contentHeight", contentHeight);
+        console.log("pageHeight", pageHeight);
+        console.log("leftHeight", leftHeight);
+        console.log("position", position);
+        console.log("imgWidth", imgWidth);
+        console.log("imgHeight", imgHeight);
+        // 创建pdf
+        const PDF = new JsPDF("l", "pt", "a4");
+        // 如果leftHeight小于pageHeight，则直接添加图片
+        if (leftHeight < pageHeight) {
+          // PDF.addImage(pageData, "JPEG", 50, 0, imgWidth, imgHeight);
+          PDF.addImage(pageData, "JPEG", 50, 30, imgWidth, imgHeight);
+        } else {
+          // 如果leftHeight大于pageHeight，则循环添加图片
+          while (leftHeight > 0) {
+            PDF.addImage(pageData, "JPEG", 50, position, imgWidth, imgHeight);
+            leftHeight -= pageHeight;
+            // position -= 841.89;
+            position -= 532;
+            // 如果leftHeight大于0，则添加新页
+            if (leftHeight > 0) {
+              PDF.addPage();
+            }
+          }
+        }
+        // 保存pdf
+        PDF.save(title + ".pdf");
+      });
+    };
+  }
+};
 ```
