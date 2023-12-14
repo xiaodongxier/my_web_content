@@ -1,0 +1,175 @@
+{
+  "name": "王永杰的云书签",
+  "version": "0.0.1",
+  "description": "王永杰的云书签数据",
+  "author": "wangyongjie",
+  "blog": "www.xiaodongxier.com",
+  "github": "xiaodongxier (https://github.com/xiaodongxier)",
+  "data": [
+    {
+      "title": "AI大模型",
+      "description": "AI",
+      "children": [
+        {
+          "title": "OpenAI",
+          "description": "创建造福全人类的安全通用人工智能（AGI）",
+          "vpn": true,
+          "url": "https://chat.openai.com",
+          "avatar": "https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.59f2e898.png",
+          "bg": "https://gitcdn.xiaodongxier.com/obsidian/202312141111952.webp"
+        },
+        {
+          "title": "阿里通义",
+          "description": "致力于实现类人智慧的通用智能",
+          "vpn": false,
+          "url": "https://tongyi.aliyun.com",
+          "avatar": "https://img.alicdn.com/imgextra/i1/O1CN01RBdOZH1DiXtigOchP_!!6000000000250-54-tps-200-200.apng",
+          "bg": "https://gitcdn.xiaodongxier.com/obsidian/202312141102413.webp"
+        },
+        {
+          "title": "百度文心",
+          "description": "既能写文案、读文档，又能脑洞大开、答疑解惑，还能倾听你的故事、感受你的心声。快来和我对话吧！",
+          "vpn": false,
+          "url": "https://tongyi.aliyun.com/qianwen",
+          "avatar": "https://nlp-eb.cdn.bcebos.com/logo/favicon.ico",
+          "bg": "https://gitcdn.xiaodongxier.com/obsidian/202312141105027.webp"
+        },
+        {
+          "title": "讯飞星火",
+          "description": "能够学习和理解人类的语言，进行多轮对话，回答问题，高效便捷地帮助人们获取信息、知识和灵感",
+          "vpn": false,
+          "url": "https://passport.xfyun.cn",
+          "avatar": "https://xinghuo.xfyun.cn/spark-icon.ico",
+          "bg": "https://gitcdn.xiaodongxier.com/obsidian/202312141110748.webp"
+        },
+        {
+          "title": "字节豆包",
+          "description": "智能小助手，可以为你答疑解惑，提供灵感，辅助创作，也可以和你畅聊任何你感兴趣的话题",
+          "vpn": false,
+          "url": "https://www.doubao.com",
+          "avatar": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png",
+          "bg": "https://gitcdn.xiaodongxier.com/obsidian/202312141306676.webp"
+        },
+        {
+          "title": "360智脑",
+          "description": "有形象、有灵魂、有智慧的智脑大模型驱动数字人",
+          "vpn": false,
+          "url": "https://chat.360.com",
+          "avatar": "https://cloud.zhaomi.cn/brain_admin/test/eb65f3f33af14d954ba538755580e040.png",
+          "bg": "https://gitcdn.xiaodongxier.com/obsidian/202312141313012.webp"
+        },
+        {
+          "title": "百川智能",
+          "description": "汇聚世界知识，创作妙笔生花",
+          "vpn": false,
+          "url": "https://www.baichuan-ai.com",
+          "avatar": "https://www.baichuan-ai.com/favicon-96x96.png",
+          "bg": "https://gitcdn.xiaodongxier.com/obsidian/202312141314588.webp"
+        }
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    {
+      "title": "前端相关",
+      "description": "Web",
+      "children": [
+        {
+          "title": "标题21",
+          "description": "这是简洁的描述",
+          "url": "https://www.baidu.com",
+          "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+        },
+        {
+          "title": "标题22",
+          "description": "这是简洁的描述",
+          "url": "",
+          "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+        }
+      ]
+    },
+    {
+      "title": "VSCocde",
+      "description": "vscode",
+      "children": [
+        {
+          "title": "在线工具",
+          "description": "vsocdevsocdevsocde",
+          "url": "https://www.baidu.com",
+          "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+        }
+      ]
+    },
+    {
+      "title": "在线工具",
+      "description": "webTools",
+      "children": [
+        {
+          "title": "在线工具",
+          "description": "在线工具在线工具",
+          "url": "https://www.baidu.com",
+          "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+        }
+      ]
+    },
+    {
+      "title": "开源仓库",
+      "description": "openSource",
+      "children": [
+        {
+          "title": "开源仓库",
+          "description": "开源仓库开源仓库",
+          "url": "https://www.baidu.com",
+          "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+        }
+      ]
+    },
+    {
+      "title": "UI设计",
+      "description": "UI",
+      "children": [
+        {
+          "title": "UI",
+          "description": "UIUIUI",
+          "url": "https://www.baidu.com",
+          "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+        }
+      ]
+    },
+    {
+      "title": "Win",
+        "description": "win",
+      "children": [
+        {
+          "title": "win",
+          "description": "winwin",
+          "url": "https://www.baidu.com",
+          "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+        }
+      ]
+    },
+    {
+      "title": "Mac",
+      "description": "mac",
+      "children": [
+        {
+          "title": "Mac",
+          "description": "MacMacMacMac",
+          "url": "https://www.baidu.com",
+          "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+        }
+      ]
+    }
+  ]
+}
