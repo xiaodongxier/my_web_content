@@ -170,6 +170,19 @@
           "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
         }
       ]
+    },
+    {
+      "title": "其他",
+      "description": "other",
+      "children": [
+        {
+          "title": "Docusaurus",
+          "description": "文档｜快速构建以内容为核心的最佳网站",
+          "url": "https://docusaurus.io/zh-CN",
+          "avatar": "https://docusaurus.io/zh-CN/img/docusaurus.svg",
+          "bg": "https://gitcdn.xiaodongxier.com/obsidian/202312151144262.webp"
+        }
+      ]
     }
   ]
 }
