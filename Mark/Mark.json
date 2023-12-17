@@ -164,9 +164,9 @@
       "description": "mac",
       "children": [
         {
-          "title": "Mac",
-          "description": "MacMacMacMac",
-          "url": "https://www.baidu.com",
+          "title": "Motrix",
+          "description": "功能齐全的下载管理器, 支持HTTP、FTP、BitTorrent、Magnet等下载。",
+          "url": "https://motrix.app/download",
           "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
         }
       ]
