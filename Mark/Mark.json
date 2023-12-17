@@ -164,7 +164,7 @@
       "description": "mac",
       "children": [
         {
-          "title": "Motrix",
+          "title": "Motrix|开源免费",
           "description": "功能齐全的下载管理器, 支持HTTP、FTP、BitTorrent、Magnet等下载。",
           "url": "https://motrix.app/download",
           "avatar": "https://s.motrix.app/images/app-icon-square@2x.png",
