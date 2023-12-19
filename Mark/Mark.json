@@ -150,14 +150,15 @@
     {
       "title": "Win",
         "description": "win",
-      "children": [
-        {
-          "title": "win",
-          "description": "winwin",
-          "url": "https://www.baidu.com",
-          "avatar": "https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
-        }
-      ]
+        "children": [
+          {
+            "title": "wiinw",
+            "description": "Win应用软件,每天更新大量精品Win软件,为您提供优质的Win软件,Win破解版软件下载",
+            "url": "https://wiinw.com",
+            "avatar": "https://macwk.cn/wp-content/uploads/2023/07/macwkico.png",
+            "bg": "https://gitcdn.xiaodongxier.com/obsidian/202312190852318.webp"
+          }
+        ]
     },
     {
       "title": "Mac",
