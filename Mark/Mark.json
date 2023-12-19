@@ -190,7 +190,15 @@
           "url": "https://docusaurus.io/zh-CN",
           "avatar": "https://docusaurus.io/zh-CN/img/docusaurus.svg",
           "bg": "https://gitcdn.xiaodongxier.com/obsidian/202312151144262.webp"
+        },
+        {
+          "title": "2023年 CSS 发展总结",
+          "description": "2023 年对 CSS 来说是重要的一年！了解今年哪些登陆 Chrome 和整个网络平台。",
+          "url": "https://developer.chrome.com/blog/css-wrapped-2023?hl=zh-cn",
+          "avatar": "https://www.gstatic.com/devrel-devsite/prod/vc33a3662809b7010f569d1a7af7b66f2061027596eda47df3ce361ab3299c1ea/chrome/images/touchicon-180.png",
+          "bg": "https://gitcdn.xiaodongxier.com/obsidian/202312191757950.webp"
         }
+        
       ]
     }
   ]
