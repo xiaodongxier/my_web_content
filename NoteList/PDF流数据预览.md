@@ -17,6 +17,7 @@
   </div>
 </a-modal>
 ```
+
 ```js
 getFile(params, { responseType: "blob" }).then((res) => {
   const blob = new window.Blob([res], {
