@@ -22,8 +22,9 @@ getFile(params, { responseType: "blob" }).then((res) => {
   const blob = new window.Blob([res], {
     type: "application/pdf;charset-UTF-8"
   });
+  // 生成链接
   const href = URL.createObjectURL(blob);
-  this.pdfUrl = href;
+  this.pdfUrl = href; 
   // 新窗口打开
   // window.open(href);
 });
