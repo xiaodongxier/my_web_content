@@ -34,6 +34,18 @@
 - [ ] Vue3相关
 - [ ] React相关
 - [ ] ES6相关
+- [ ] 字符串相关
+  - [ ] 分割
+  - [ ] 替换
+  - [ ] 拼接
+  - [ ] 后缀 `str.split(".").pop().toLowerCase()`
+    - [ ] 分割后得到最后一个数据为文件类型
+    - [ ] 后缀转小写格式统一
+  - [ ] 前缀 `str.split(".").shift().toLowerCase()`
+    - [ ] 分割后第一个数据
+    - [ ] 前缀转小写
+  - [ ] 首字母大写 `str.charAt(0).toUpperCase() + str.slice(1)`
+  - [ ] 首字母小写 `str.charAt(0).toLowerCase() + str.slice()
 
 
 
