@@ -46,6 +46,12 @@
     - [ ] 前缀转小写
   - [ ] 首字母大写 `str.charAt(0).toUpperCase() + str.slice(1)`
   - [ ] 首字母小写 `str.charAt(0).toLowerCase() + str.slice()
+- [ ] 数据格式化
+  - [ ] json转字符串
+    - [ ] 本地存储
+    - [ ] 会话存储
+  - [ ] 字符串json转json
+- [ ] 时间格式处理
 
 
 
